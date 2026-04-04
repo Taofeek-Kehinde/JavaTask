@@ -1,17 +1,15 @@
 // NUmber divided by 4
 
-import java.util.Scanner;
 
- public class dQuestiontwentyeight{
+ public class Questiontwentyeight{
 
   public static void main(String[] args)  {
   
-   Scanner input = new Scanner(System.in);
+    float Number = 20;
 
-   System.out.println("Enter a number ");
+   System.out.println("Number = " +Number);
 
-   float Number = input.nextFloat();
-
-   System.out.println("Number is: " +  (Number/3));
+   
+   System.out.println("Divided by 3 = " +  (Number/3));
  }
 }

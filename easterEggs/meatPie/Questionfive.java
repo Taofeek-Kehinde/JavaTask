@@ -1,21 +1,18 @@
 // Write two numbers and print the product
 
-import java.util.Scanner;
 
  public class Questionfive {
  
   public static void main(String[] args)  {
 
-  Scanner input = new Scanner(System.in);
+   int firstNumber = 5;
 
-   System.out.println("Enter first number "); 
+   System.out.println("first number: " +firstNumber); 
   
-   int firstNumber = input.nextInt(); 
+   int secondNumber = 2;
 
-   System.out.println("Enter second number "); 
+   System.out.println("second number :" +secondNumber); 
   
-   int secondNumber = input.nextInt(); 
-
    System.out.println("Product: " + (firstNumber * secondNumber));
 
   }

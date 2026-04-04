@@ -1,20 +1,16 @@
 // A java program that minus 5 from the output of a number 
 
 
- import java.util.Scanner;
-
  public class Questioneighteen {
 
   public static void main(String[] args) {
+   
+   int Number = 15;
 
-   Scanner input = new Scanner(System.in);
+  System.out.println("Number = " +Number);
 
-  System.out.println("Enter a number ");
-
-  int Number = input.nextInt();
-
-
-  System.out.println("Subtraction of 5 is: " + (Number - 5));
+  
+  System.out.println("Subtraction of 5 is = " + (Number - 5));
 
 
   }

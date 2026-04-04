@@ -1,17 +1,14 @@
 // A java program that takes a number and print it's double'
 
- import java.util.Scanner;
 
  public class Questionten{
 
   public static void main(String[] args)  {
 
-    Scanner input = new Scanner (System.in);
+    double number = 5;
 
+    System.out.println("number " +number);
 
-    System.out.println("Enter a number ");
-
-   double number = input.nextDouble();
 
    System.out.println("Double: " + (number * 2)); 
 }

@@ -1,23 +1,21 @@
 // A java program that print the diffrence between two numbers 
-import java.util.Scanner;
 
   public class Questionfour {
    
    public static void main(String[] args) {
-     
-  Scanner input = new Scanner(System.in);
 
-     System.out.println("Enter first number");
+     int firstNumber = 50;
+     System.out.println("first number: " +firstNumber);
 
-    int firstNumber = input.nextInt();
+    
+   
+   int secondNumber = 30;
 
- System.out.println("Enter second number");
-
-    int secondNumber = input.nextInt();
+ System.out.println("second number: " +secondNumber);
 
     int diff = firstNumber - secondNumber;
   
-   System.out.println("The diffrence between the two number is: " +diff);
+   System.out.println("The difference between the two number is: " +diff);
   
   }
 }

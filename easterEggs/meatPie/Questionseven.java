@@ -1,18 +1,15 @@
 // A java program that takes a number and print it's sqaure
 
-import java.util.Scanner;
 
   public class Questionseven {
  
   public static void main(String[] args)  {
-   
-   Scanner input = new Scanner(System.in);
+    
+    int number = 10;
 
-   System.out.println("Enter a number ");
+   System.out.println("number: " +number);
 
-   int number = input.nextInt();
-  
-    System.out.println("The sqaure of the number is: " +  (number * number));
+    System.out.println("The sqaure of " +number +" is: " +  (number * number));
  
 }
  }
