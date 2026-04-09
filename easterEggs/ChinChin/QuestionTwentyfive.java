@@ -1,7 +1,7 @@
 // What i spelled back and stil the same is what we are asked to do here 
 import java.util.Scanner;
 
-public class Q25 {
+public class QuestionTwentyfive {
 
   public static void main(String[] args) {
 
