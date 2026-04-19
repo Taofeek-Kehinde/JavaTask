@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
- public class Q5 {
+ public class QuestionFour {
 
   public static void main(String[] args)  {
 

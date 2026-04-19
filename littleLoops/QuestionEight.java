@@ -1,6 +1,6 @@
 //print ASCII values of characters A to Z A = 65 Z = 90
 
- public class Q8 {
+ public class QuestionEight {
 
   public static void main(String[] args) {
 

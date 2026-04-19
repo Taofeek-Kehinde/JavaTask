@@ -2,7 +2,7 @@
 
 import java.util.Scanner;
 
-  public class Q27  {
+  public class TwentySeven  {
 
   public static void main(String[] args)  {
 

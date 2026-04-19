@@ -1,10 +1,9 @@
-// HMM GOD HELP ME I DON'T LIKE MATH!!!!!!!!'
-// I keep using double because of the values have a decimal point
+
 
  import java.util.Scanner;
 
 
-  public class Q5  {
+  public class QuestionFIve {
 
    public static void main(String[] args)  {
 
