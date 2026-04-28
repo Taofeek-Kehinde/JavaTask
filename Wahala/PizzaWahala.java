@@ -12,7 +12,7 @@ public class PizzaWahala {
         }
     }
     
-    private int getSlices(String pizzaType) {
+    public int getSlices(String pizzaType) {
         if (pizzaType.equalsIgnoreCase("Sapa Size")) {
             return 4;
         } else if (pizzaType.equalsIgnoreCase("Small Money")) {
