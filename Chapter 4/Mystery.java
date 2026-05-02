@@ -9,4 +9,4 @@ total += y;
 System.out.printf("Y is: %d and total is %d\n", y, total);
 }// end while
 }// end main
-}
+} 

@@ -19,6 +19,6 @@ public class Main {
     public static void main(String[] args) {
         int[] numbers = {5, 9, 2, 7};
         int biggest = findLargest(numbers);
-        System.out.println("Te largest number: " +biggest); 
+        System.out.println("The largest number: " +biggest); 
     }
 }
