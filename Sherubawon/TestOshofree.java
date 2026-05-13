@@ -1,0 +1,19 @@
+import org.junit.jupiter.api.Test;
+import static org.junit.jupiter.api.Assertions.*;
+
+public class TestOshofree {
+
+    @Test
+    void testCartBelow5000_NoDiscount() {
+        OshoFreePromoEngine engine = new OshoFreePromoEngine();
+        double result = engine.calculateFinalPrice(4000.00, "");
+        assertEquals(4000.00, result);
+    }
+
+    @Test
+    void testCart5000To14999_WithStarter10_DiscountApplied() {
+        OshoFreePromoEngine engine = new OshoFreePromoEngine();
+        double result = engine.calculateFinalPrice(10000.00, "STARTER10");
+        assertEquals(9000.00, result);
+    }
+}
