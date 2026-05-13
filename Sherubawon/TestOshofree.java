@@ -30,4 +30,12 @@ public class TestOshofree {
         double result = engine.calculateFinalPrice(30000.00, "OSHOFREE35");
         assertEquals(19500.00, result);
     }
+
+    @Test
+    void testInvalidPromoCode_NoDiscountApplied() {
+        OshoFreePromoEngine engine = new OshoFreePromoEngine();
+        double result = engine.calculateFinalPrice(18000.00, "FAKE99");
+        assertEquals(18000.00, result);
+    }
+
 }
